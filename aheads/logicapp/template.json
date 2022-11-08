@@ -33,8 +33,6 @@
             "name": "[parameters('name')]",
             "type": "Microsoft.Logic/workflows",
             "location": "[parameters('location')]",
-            "identity": {
-             "type": "SystemAssigned",
             "tags": {},
             "properties": {
                 "definition": "[json(parameters('definition'))]",
@@ -42,7 +40,5 @@
                 "state": "[parameters('logicAppState')]"
             }
         }
-      }
     ]
-
 }
