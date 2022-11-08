@@ -6,7 +6,7 @@
             "value": "2016-10-01"
         },
         "name": {
-            "value": "[format('lg{0}', uniqueString(resourceGroup().id))]"
+            "value": "logkp009"
         },
         "location": {
             "value": "North Europe"
